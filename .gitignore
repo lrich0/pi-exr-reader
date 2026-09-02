@@ -1,3 +1,7 @@
 node_modules/
-images/previews/
+
+# Working context and session records stay on disk, out of the package repo.
+AGENTS.md
+docs/
+images/
 *.log
