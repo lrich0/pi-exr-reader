@@ -15,10 +15,10 @@
     "pixel-inspection"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Luke Richardson",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/lrich0/pi-exr-reader.git"
   },
   "files": [
     "exr_reader/",
