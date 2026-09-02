@@ -1,0 +1,42 @@
+{
+  "name": "pi-exr-reader",
+  "version": "0.1.0",
+  "description": "Pi extension: read .exr files — exact full-precision channel stats, pixel values, rect stats, and a PNG preview. Works on Arnold/RenderMan/Blender AOVs, UV/ST maps, and multilayer EXRs.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "exr",
+    "openexr",
+    "aov",
+    "arnold",
+    "uv-map",
+    "render",
+    "pixel-inspection"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "exr_reader/",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./exr_reader"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@types/node": "^25.9.1",
+    "typebox": "*",
+    "typescript": "^6.0.3"
+  }
+}
